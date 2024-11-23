@@ -1,0 +1,94 @@
+
+h2{
+    background-color: rgb(238, 226, 239);
+    padding: 5px;
+    
+
+}
+
+#about a{
+    text-decoration: none;
+    padding-right: 15px;
+    color: black;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #cdc9c9;
+    box-shadow: 2px 2px 15px black;
+    
+}
+#img{
+    width: 200px;
+    height: auto;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+}
+#details{
+    display: flex;
+    justify-content: space-around;
+}
+#table, th, td{
+    margin-left: 30%;
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid black;
+
+}
+.card{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.8);
+    transition: 0.3s;
+    width: 25%;
+    height: auto;
+}
+.container h6{
+    padding-top: 5px;
+    
+}
+
+.card_container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+}
+.card{
+    transition: transform 0.2s ease-in-out;
+    margin: 5px;
+}
+.card :hover{
+    transform: scale(1.1);
+
+
+}
+.f{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+}
+.foot a, li {
+  padding-left: 20px;
+   
+}
+#about :hover{
+    background-color: rgb(81, 173, 249);
+    padding: 5px;
+    border-radius: 2px;
+}
+#details, img{
+    transition: transform 0.2s ease-in-out;
+    margin: 5px;
+    padding-top: 5px;
+}
+#details, img:hover{
+    transform: scale(1.1);
+
+
+}
